@@ -16,7 +16,7 @@ public class StringCharacters {
         // --------------------------------------------------------------------------
         String [] TextSplitList;
 
-        spaces = text.split("\\s").length;
+        spaces = text.split("\\s").length - 1;
 
         text = text.replaceAll("\\s","");
 
