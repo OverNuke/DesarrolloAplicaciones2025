@@ -15,7 +15,7 @@ public class StringCharacters {
 
         // --------------------------------------------------------------------------
         String [] TextSplitList;
-
+        // Existe una división adicional en el arreglo 10/02/2025
         spaces = text.split("\\s").length - 1;
 
         text = text.replaceAll("\\s","");
